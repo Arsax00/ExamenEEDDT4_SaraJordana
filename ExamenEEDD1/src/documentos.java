@@ -4,7 +4,7 @@
  *@version 1.0
  *@see http://google.com
  */
-public class document {
+public class documentos {
 	
 	/**
 	 * @since http://Oracle.com
@@ -13,7 +13,7 @@ public class document {
 	 */
 	static int numero;	
 	
-	public document() {//constructor
+	public documentos() {//constructor
 		super();
 		numero=10;
 	}
@@ -29,7 +29,7 @@ public class document {
     * @param num que contendrá un valor int numérico 
     */
 	public static void setNum(int num) {
-		document.numero = num;
+		documentos.numero = num;
 	}
    
 	public static void parOimpar() { //aquí se realiza la función que determina si el num es par o impar
